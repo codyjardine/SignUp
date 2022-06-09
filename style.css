@@ -1,0 +1,113 @@
+@font-face {
+  font-family: 'NorseBold';
+  src: url(Norse-Bold.otf);
+}
+
+body {
+  margin: 0;
+  display: flex;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+#left__container {
+  font-family: 'NorseBold';
+  color: white;
+  font-size: 6rem;
+  width: 35vw;
+  height: 100vh;
+  background-image: url(splash.jpg);
+  background-size: cover;
+}
+
+#logo {
+  background-color: rgba(0,0,0,0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 20%;
+  padding: 1rem 0;
+}
+
+#logo img {
+  width: 4vw;
+  height: 11vh;
+}
+
+.greeting {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+#right__container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 50px;
+  width: 65vw;
+  justify-content: space-between;
+
+}
+
+.form__header {
+  padding-top: 50px;
+}
+
+#form__container {
+  display: grid;
+  grid-template-columns: 25% 25%;
+  column-gap: 50px;
+  row-gap: 30px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  padding-bottom: 5px;
+  font-weight: bold;
+  color: #666;
+  letter-spacing: 1.5px;
+}
+
+input {
+  border: 1px solid #333;
+  border-radius: 5px;
+  height: 30px;
+  padding-left: 10px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+}
+
+input:focus {
+  border: 1px solid blue;
+  outline: none;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 40px;
+  font-size: 22px;
+  color: white;
+  background-color: #596D48;
+  border: none;
+  border-radius: 5px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+}
+
+.log-in {
+  margin-bottom: 40px;
+  font-size: 18px;
+}
+
+.log-in a {
+  color: #596D48;
+  text-decoration: none;
+
+}
+
